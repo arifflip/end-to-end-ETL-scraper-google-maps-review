@@ -16,7 +16,7 @@ Pipeline Data Engineering End-to-End yang terotomatisasi untuk mengekstraksi, me
 
 ## Problem Statement
 
-Memahami persepsi publik dan umpan balik konsumen terhadap suatu brand atau layanan di lokasi fisik (*dealer*, *showroom*, atau cabang) merupakan kebutuhan analisis yang krusial. Sebagai peneliti atau analis eksternal tanpa akses ke data internal perusahaan, diperlukan sumber data publik yang andal untuk menangkap opini konsumen secara nyata.
+Memahami persepsi publik dan umpan balik konsumen terhadap suatu brand atau layanan di lokasi fisik erupakan kebutuhan analisis yang krusial. Sebagai peneliti atau analis eksternal tanpa akses ke data internal perusahaan, diperlukan sumber data publik yang andal untuk menangkap opini konsumen secara nyata.
 
 Google Maps Reviews dipilih sebagai sumber data utama karena ketersediaannya yang tinggi (*high availability*) dan mudah diakses secara publik. Platform ini menyediakan pengalaman pengguna secara *real-time* dan spesifik berdasarkan lokasi fisik.
 
@@ -51,12 +51,12 @@ Google Maps Reviews dipilih sebagai sumber data utama karena ketersediaannya yan
 
 ## Output Utama Proyek
 
-1. Scraping Engine Otomatis: Script Selenium yang tangguh dengan penanganan *dynamic wait*, *resilient selector fallback*, serta mode *headless*.
+1. Scraping Engine Otomatis: Script Selenium yang dapat mengambil data list tempat dan review dari setiap tempatnya.
 2. Pipeline ETL Terstandarisasi: 
-   - Ekstraksi elemen HTML mentah/struktur JSON.
+   - Selenium scraper yang dapat meng-extract elemen HTML mentah/struktur JSON.
    - Pembersihan format tanggal, normalisasi rating, pembersihan teks dari *noise*, dan penanganan nilai kosong (*missing values*).
    - Pengmuatan data terstruktur ke tabel PostgreSQL.
-3. Workflow Terotomatisasi: Airflow DAGs untuk eksekusi pipeline secara periodik dan teratur.
+3. Workflow Terotomatisasi: Airflow DAGs untuk eksekusi pipeline secara periodik.
 4. Dataset Siap Analisis: Penyimpanan data yang siap digunakan untuk Sentiment Analysis, pemodelan NLP, atau pembuatan Dashboard Business Intelligence (Looker / Tableau / PowerBI).
 
 ---
