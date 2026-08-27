@@ -1,4 +1,4 @@
-# ETL_Google_Maps_Review_Scraper
+# End to end ETL - Google Map 'place' reviews scraper 
 
 <img width="1419" height="704" alt="Portfolio - Project Portfolio - ETL Google Maps Review Scraper" src="https://github.com/user-attachments/assets/7e620c2b-ca02-432d-a04c-e4f1bc975dc7" />
 
