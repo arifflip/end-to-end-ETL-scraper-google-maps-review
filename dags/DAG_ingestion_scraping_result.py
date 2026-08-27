@@ -82,15 +82,9 @@ def csv_pandas_pipeline():
         )
         print("Ingestion via Pandas selesai!")
 
-    task_silver_and_gold_transformation = SQLExecuteQueryOperator(
-        task_id='task_silver_and_gold_transformation',
-        conn_id='dwh_postgres',
-        sql='function_scraper_and_integration/transformation_silver_and_gold.sql',)
-
-
     place_ingestion_task=load_raw_place_scraping_result()
     review_ingestion_task=load_raw_review_scraping_result()
 
-    place_ingestion_task >> review_ingestion_task >> task_silver_and_gold_transformation
+    place_ingestion_task >> review_ingestion_task
 
 csv_pandas_pipeline()
