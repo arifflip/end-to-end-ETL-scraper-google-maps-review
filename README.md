@@ -2,6 +2,9 @@
 
 <img width="1419" height="704" alt="Portfolio - Project Portfolio - ETL Google Maps Review Scraper" src="https://github.com/user-attachments/assets/7e620c2b-ca02-432d-a04c-e4f1bc975dc7" />
 
+<img width="1153" height="780" alt="Medallion Architecture" src="https://github.com/user-attachments/assets/d03cd957-f62e-4dc1-b37f-f59d73228287" />
+
+
 # Sentiment Google Maps Review  - End-to-End ETL Pipeline
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white)
