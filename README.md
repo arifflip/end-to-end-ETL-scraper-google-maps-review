@@ -34,7 +34,7 @@ Google Maps Reviews dipilih sebagai sumber data utama karena ketersediaannya yan
 
 ### Batasan Teknis
 * Dynamic UI Rendering: Memerlukan penanganan elemen *JavaScript rendering* di sisi klien, *lazy loading*, *pop-up* dinamis, dan fitur *infinite scroll*.
-* Proteksi Anti-Scraping: Risiko tinggi memicu pembatasan akses (*rate-limiting*), CAPTCHA, hingga pemblokiran IP sementara oleh Google.
+* Proteksi Anti-Scraping: Risiko tinggi memicu pembatasan akses (*rate-limiting*) hingga pemblokiran IP sementara oleh Google.
 * Kebutuhan Otomasi: Pipeline memerlukan eksekusi terjadwal dan andal tanpa intervensi manual untuk menjaga histori data tetap terbarui.
 
 ---
