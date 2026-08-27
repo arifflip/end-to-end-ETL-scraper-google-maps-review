@@ -26,27 +26,27 @@ default_args = {
 )
 def test_place_scraper_gmaps():
 
-    # @task
-    # def run_place_scraper():
+    @task
+    def run_place_scraper():
 
-    #     # init driver
-    #     driver=init_driver()
+        # init driver
+        driver=init_driver()
 
-    #     # run scraper
-    #     place_to_be_search='"Vinfast" Indonesia'
-    #     print(f"Started to search {place_to_be_search} in Google Mapp")
-    #     scraping_result=full_scrap_places_data(driver,place_to_be_search)
+        # run scraper
+        place_to_be_search='"Vinfast" Indonesia'
+        print(f"Started to search {place_to_be_search} in Google Mapp")
+        scraping_result=full_scrap_places_data(driver,place_to_be_search)
 
-    #     # write to csv
-    #     filename_place_scraped_result="/opt/airflow/data/places_scraping_result.csv"
-    #     scraping_result.to_csv(filename_place_scraped_result,index=None,sep="\t")
-    #     print(f'File saved in {filename_place_scraped_result}')
+        # write to csv
+        filename_place_scraped_result="/opt/airflow/data/places_scraping_result.csv"
+        scraping_result.to_csv(filename_place_scraped_result,index=None,sep="\t")
+        print(f'File saved in {filename_place_scraped_result}')
 
-    #     # close driver
-    #     driver.quit()
-    #     print("Driver exited peacfully!")
+        # close driver
+        driver.quit()
+        print("Driver exited peacfully!")
 
-    #     return filename_place_scraped_result
+        return filename_place_scraped_result
 
     @task
     def run_places_review_scraper() :
@@ -75,9 +75,9 @@ def test_place_scraper_gmaps():
             print("Damn ada ERROR", "\n", e)
 
     # PERBAIKAN: Panggil task di sini agar terdaftar di DAG Graph!
-    #place_scraper = run_place_scraper()
+    place_scraper = run_place_scraper()
     review_scraper = run_places_review_scraper()
-    #place_scraper >> review_scraper
+    place_scraper >> review_scraper
     review_scraper
 
 # Instansiasi DAG
