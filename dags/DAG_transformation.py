@@ -17,7 +17,7 @@ default_args = {
     start_date=datetime(2026, 1, 1),
     schedule_interval=None, # Dijalankan manual lewat UI Airflow
     catchup=False,
-    tags=["Ingestion", "Postgres", "Scraper"],
+    tags=["Data Transformation","Silver", "Gold"],
 )
 
 def silver_gold_transformation() :
