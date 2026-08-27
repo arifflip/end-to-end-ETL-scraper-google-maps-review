@@ -1,8 +1,3 @@
-# Python environment & cache
-venv/
-env/
-__pycache__/
-*.pyc
-
-# File sensitif (API key, password database, dll)
 .env
+__pycache__/
+
