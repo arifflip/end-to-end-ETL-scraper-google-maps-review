@@ -1,5 +1,3 @@
-# End to end ETL - Google Map 'place' reviews scraper 
-
 # Sentiment Google Maps Review  - End-to-End ETL Pipeline
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white)
