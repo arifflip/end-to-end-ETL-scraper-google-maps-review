@@ -9,6 +9,10 @@
 Pipeline Data Engineering End-to-End yang terotomatisasi untuk mengekstraksi, membersihkan, mentransformasi, dan menyimpan data ulasan Google Maps. Proyek ini bertujuan untuk mendukung analisis berbasis data terkait persepsi publik dan kepuasan pelanggan terhadap subjek/layanan tertentu.
 
 ---
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c06a8ac4-fb32-4a62-8212-e51ce1b90715" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a3b0d5b1-81a6-4f7e-a211-16a5c18a9ceb" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a4038b11-1842-4867-833a-613877b3a83d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/47a36d81-d5a2-47f3-a279-886b12b83f2b" />
 
 ## Problem Statement
 
