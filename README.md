@@ -5,6 +5,8 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+<img width="1782" height="995" alt="image" src="https://github.com/user-attachments/assets/69a173ae-d8b2-4e38-85dc-9ac687847891" />
+<img width="1782" height="998" alt="image" src="https://github.com/user-attachments/assets/bfa244cd-8fad-4a38-97ba-dc50459772b1" />
 
 Pipeline Data Engineering End-to-End yang terotomatisasi untuk mengekstraksi, membersihkan, mentransformasi, dan menyimpan data ulasan Google Maps. Proyek ini bertujuan untuk mendukung analisis berbasis data terkait persepsi publik dan kepuasan pelanggan terhadap subjek/layanan tertentu.
 
